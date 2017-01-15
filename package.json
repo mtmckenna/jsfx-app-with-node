@@ -1,0 +1,23 @@
+{
+  "name": "jsfx-app-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify index.js -o dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtmckenna/jsfx-app-with-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtmckenna/jsfx-app-with-node/issues"
+  },
+  "homepage": "https://github.com/mtmckenna/jsfx-app-with-node#readme",
+  "dependencies": {
+    "jsfx-audio": "git+https://github.com/mtmckenna/jsfx#add-node-module-support"
+  }
+}
